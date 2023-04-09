@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="2.js" defer></script>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+
+<main>
+  <div id="main-container">
+    <div id="pirate-img-container">
+      <img id="pirate-img" src="111.jpg" alt="">
+    </div>
+    <div id="rules-container">
+      <p>Я загадал число от <span class="red-bold-text">1</span> до <span class="red-bold-text">15</span>.</p>
+      <p>У тебя <span class="red-bold-text">три</span> попытки.</p>
+      <p>Если удача на твоей стороне - будешь жить,</p>
+      <p>если нет - отправишься на корм рыбам</p>
+      <p>Готов?</p>
+      <button id="ready">Всегда готов!</button>
+    </div>
+    <div id="game-container">
+      <label for="input_1"></label><input id="input_1" type="text" placeholder="Введи свой вариант">
+    </div>
+    <div id="start-container">
+      <button id="risk">ТАК!</button>
+    </div>
+  </div>
+  <div id="result-container">
+    <p id="attempt">Осталось попыток: 3</p>
+    <p id="result"></p>
+    <button id="reset">Еще раз!</button>
+  </div>
+</main>
+
+</body>
+</html>
